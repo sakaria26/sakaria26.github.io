@@ -1,0 +1,182 @@
+*
+
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: white;
+    padding: 0 !important;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: black !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+/*---------banner section---------------*/
+
+#banner{
+    padding-top: 1%;
+}
+
+
+
+.promo{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.black{
+    background-color: black;
+    height: 60vh;
+    color: white;
+}
+
+.white{
+    background-color: white;
+    height: 60vh;
+    color: white;
+}
+.banner h1, p{
+    color: black;
+}
+
+
+/*-------------about-----------------------*/
+
+#skills{
+    padding: 80px 0;
+}
+
+.skills-img{
+    width: 150px;
+    margin-top: 20px;
+}
+
+.block{
+    border: 5px solid black;
+}
+
+.skills h2{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before{
+    content: '';
+    background: black;
+    height: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after{
+    content: '';
+    background: black;
+    height: 10px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+/*--------------history--------------------*/
+.history h2, h5{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.history h2, h5, p{
+    color: white;
+}
+
+#history{
+    background-color: black;
+    padding-top: 1%;
+}
+
+/*-------socials------------*/
+
+.social-icons{
+    width: 50px; 
+    height:  50px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/*----------------contact form-------------*/
+
+
+.form{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 0 !important;
+    border: 2px solid black;
+    width: 67vh;
+}
+
+.enter{
+    border: 2px solid black;
+    width: 60vh;
+}
+
+textarea{
+    height: 100px;
+}
+
+.box{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#buttom{
+    border: 2px solid black;
+    width: 100px; 
+}
+
+label{
+    text-transform: uppercase;
+}
+
+.button{
+    margin-bottom: 20px;
+}
+
